@@ -1,4 +1,10 @@
 const express = require("express");
+const connectDatabase = require("./helpers/db/connectDatabase");
+require("dotenv").config();
+
+//db Connect
+
+connectDatabase();
 
 const router = require("./routes/router");
 
