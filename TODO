@@ -1,0 +1,19 @@
+    PRROJECT : BOOKSTORE
+
+    EPIC :  
+           - LANDİNG PAGE
+           - USER AUTH 
+             STORY : REGİSTER - LOGİN
+           - DASHBOARD
+           - BOOK LİST
+           - BOOK DETAİLS 
+           - CHECKOUT SYSTEM
+
+
+
+
+TECH MERN STACK : BACKEND : NODE.JS (EXPRESS) RESTFUL API
+                  DATABASE : MONGODB
+                  FRONTEND: REACT
+                  PAYMENT : STRIPE
+                  DEPLOY : HEROKU
