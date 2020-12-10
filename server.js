@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("*", router);
+app.use("/api", router);
 
 app.listen(5000, () => {
   console.log("Listening on port 5000");
