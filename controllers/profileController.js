@@ -4,7 +4,10 @@ const jwt = require("jsonwebtoken");
 const { body, validationResult, check } = require("express-validator");
 
 const userProfile = (req, res, next) => {
-  const { email, password } = req.body;
+  res.status(200).json({
+    success: true,
+    user: req.user,
+  });
 };
 
 module.exports = {
