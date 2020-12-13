@@ -1,6 +1,7 @@
 const express = require("express");
 const authRouter = require("./authRouter");
 const profileRouter = require("./profileRouter");
+const bookRouter = require("./bookRouter");
 
 const router = express.Router();
 /**
@@ -13,6 +14,11 @@ router.use("/auth", authRouter);
  * @route :Post  /api/profile
  */
 router.use("/profile", profileRouter);
-// router.use("/book", bookRouter);
+
+/**
+ * @route : /api/books
+ * @desc  : Route for Book
+ */
+router.use("/books", bookRouter);
 
 module.exports = router;
